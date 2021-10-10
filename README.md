@@ -1,10 +1,10 @@
 <h1 align="center">
  <img src="">
   <br />
-  Apache Airflow Guide
+  Apache Kafka Guide
 </h1>
 
-#### A guide covering Apache Airflow including the applications, libraries and tools that will make you better and more efficient with Apache Airflow development.
+#### A guide covering Apache Kafka including the applications, libraries and tools that will make you better and more efficient with Apache Kafka development.
 
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
@@ -12,91 +12,86 @@
 
 <img src="">
 
- Using Apache Airflow with Kubernetes. Source: [Kubernetes.io](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/)
+Connecting Apache Kafka with Splunk. Source: [Splunk](https://www.splunk.com/blog/2018/04/25/splunk-connect-for-kafka-connecting-apache-kafka-with-splunk.html)
+
+<img src="">
+
+Instaclustr Kafka Managed Platform. Source: [Instaclustr](https://www.instaclustr.com)
+
+<img src="">
+
+Confluent Platform with Apache Kafka®. Source [Confluent](https://www.confluent.io/)
+
 
 # Table of Contents
 
-1. [Apache Airflow Learning Resources](https://github.com/mikeroyal/Apache-Arrow-Guide#Apache-Airflow-learning-resources)
+1. [Apache Kafka Learning Resources](https://github.com/mikeroyal/Apache-Kafka-Guide#Apache-Kafka-learning-resources)
 
-2. [Apache Airflow Tools, Libraries, and Frameworks](https://github.com/mikeroyal/Apache-Airflow-Guide#Apache-Arrow-tools-libraries-and-frameworks)
+2. [Apache Kafka Tools, Libraries, and Frameworks](https://github.com/mikeroyal/Apache-Kafka-Guide#Apache-Kafka-tools-libraries-and-frameworks)
 
-3. [Machine Learning](https://github.com/mikeroyal/Apache-Airflow-Guide#machine-learning)
+3. [Machine Learning](https://github.com/mikeroyal/Apache-Kafka-Guide#machine-learning)
 
-4. [Algorithms](https://github.com/mikeroyal/Apache-Airflow-Guide#Algorithms)
+4. [Algorithms](https://github.com/mikeroyal/Apache-Kafka-Guide#Algorithms)
 
-5. [Deep Learning Development](https://github.com/mikeroyal/Apache-Airflow-Guide#Deep-Learning-Development)
+5. [Deep Learning Development](https://github.com/mikeroyal/Apache-Kafka-Guide#Deep-Learning-Development)
 
-6. [Reinforcement Learning Development](https://github.com/mikeroyal/Apache-Airflow-Guide#Reinforcement-Learning-Development)
+6. [Reinforcement Learning Development](https://github.com/mikeroyal/Apache-Kafka-Guide#Reinforcement-Learning-Development)
 
-7. [Computer Vision Development](https://github.com/mikeroyal/Apache-Airflow-Guide#computer-vision-development)
+7. [Computer Vision Development](https://github.com/mikeroyal/Apache-Kafka-Guide#computer-vision-development)
 
-8. [Natural Language Processing (NLP) Development](https://github.com/mikeroyal/Apache-Airflow-Guide#nlp-development)
+8. [Natural Language Processing (NLP) Development](https://github.com/mikeroyal/Apache-Kafka-Guide#nlp-development)
 
-9. [Bioinformatics](https://github.com/mikeroyal/Apache-Airflow-Guide#bioinformatics)
+9. [Bioinformatics](https://github.com/mikeroyal/Apache-Kafka-Guide#bioinformatics)
 
-10. [Databases](https://github.com/mikeroyal/Apache-Airflow-Guide#databases)
+10. [Databases](https://github.com/mikeroyal/Apache-Kafka-Guide#databases)
 
-11. [CUDA Development](https://github.com/mikeroyal/Apache-Airflow-Guide#cuda-development)
+11. [CUDA Development](https://github.com/mikeroyal/Apache-Kafka-Guide#cuda-development)
 
-12. [MATLAB Development](https://github.com/mikeroyal/Apache-Airflow-Guide#matlab-development)
+12. [MATLAB Development](https://github.com/mikeroyal/Apache-Kafka-Guide#matlab-development)
 
-13. [Java Development](https://github.com/mikeroyal/Apache-Airflow-Guide#java-development)
+13. [Java Development](https://github.com/mikeroyal/Apache-Kafka-Guide#java-development)
 
-14. [C/C++ Development](https://github.com/mikeroyal/Apache-Airflow-Guide#cc-development)
+14. [Python Development](https://github.com/mikeroyal/Apache-Kafka-Guide#python-development)
 
-15. [C# Development](https://github.com/mikeroyal/Apache-Airflow-Guide#c-development)
+15. [C# Development](https://github.com/mikeroyal/Apache-Kafka-Guide#c-development)
 
-16. [Python Development](https://github.com/mikeroyal/Apache-Airflow-Guide#python-development)
+16. [Go Development](https://github.com/mikeroyal/Apache-Kafka-Guide#go-development)
 
-17. [Scala Development](https://github.com/mikeroyal/Apache-Airflow-Guide#scala-development)
+17. [Scala Development](https://github.com/mikeroyal/Apache-Kafka-Guide#scala-development)
 
-18. [R Development](https://github.com/mikeroyal/Apache-Airflow-Guide#r-development)
+18. [R Development](https://github.com/mikeroyal/Apache-Kafka-Guide#r-development)
 
 
-# Apache Airflow Learning Resources
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+# Apache Kafka Learning Resources
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
-[Apache Airflow](https://airflow.apache.org) is an open-source workflow management platform created by the community to programmatically author, schedule and monitor workflows. Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
+[Apache Kafka®](https://kafka.apache.org/) is a distributed data store optimized for ingesting and processing streaming data in real-time. Streaming data is data that is continuously generated by thousands of data sources, which typically send the data records in simultaneously.
 
-[Getting Started with Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/start/index.html)
+[Getting Started with Apache Kafka](https://kafka.apache.org/quickstart)
 
-[Apache Airflow Documentation](https://airflow.apache.org/docs/)
+[Apache Kafka Documentation](http://kafka.apache.org/documentation.html#streams)
 
-[Apache Airflow Community](https://airflow.apache.org/community/)
+[Confluent Platform Documentation](http://docs.confluent.io/current/streams/index.html)
 
-[Apache Airflow official YouTube Channel](https://www.youtube.com/channel/UCSXwxpWZQ7XZ1WL3wqevChA)
+[Introduction to Apache Kafka on HDInsight | Azure](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction)
 
-[Astronomer Certification: Apache Airflow Fundamentals | Astronomer Academy](https://academy.astronomer.io/astronomer-certification-apache-airflow-fundamentals-preparation)
+[Apache Kafka Training & Certification | Confluent](https://www.confluent.io/training/)
 
-[Getting started with Astronomer](https://academy.astronomer.io/page/get-started-with-astronomer)
+[Top Apache Kafka Courses Online | Udemy](https://www.udemy.com/courses/search/?src=ukw&q=apache+kafka)
 
-[The Complete Hands-On Introduction to Apache Airflow by Marc Lamberti | Udemy](https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow)
+[Complete Apache Kafka Practical Guide | Udemy](https://www.udemy.com/course/apache_kafka/)
 
-[Apache Airflow: Complete Hands-On Beginner to Advanced Class by Alexandra Abbas | Udemy](https://www.udemy.com/course/apache-airflow-course)
+[Apache Kafka Course for Beginners Course Online | Udemy](https://www.udemy.com/course/apache-kafka/)
 
-[Apache Airflow | A Real-Time & Hands-On Course on Airflow | Udemy](https://www.udemy.com/course/apache-airflow/)
+[Apache Kafka Tutorials | Udemy](https://www.udemy.com/topic/apache-kafka/)
 
-[ETL and Data Pipelines with Shell, Airflow and Kafka by IBM | Coursera](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka)
+[Top Apache Kafka Courses Online | Coursera](https://www.coursera.org/courses?query=kafka)
 
-[Google Cloud Certification: Machine Learning Engineer Professional Certificate by Google Cloud Training| Coursera](https://www.coursera.org/professional-certificates/preparing-for-google-cloud-machine-learning-engineer-professional-certificate)
+[Kafka Training – Online Apache Kafka Certification Course | DataFlair](https://data-flair.training/apache-kafka/)
 
-[Certified Apache Airflow Training by Kris Geusebroek |  GoDataDriven](https://godatadriven.com/training/apache-airflow-training/)
+[Apache Kafka Training Courses | NobleProg](https://www.nobleprog.com/apache-kafka-training)
 
-[Apache Airflow Training Courses | NobleProg](https://www.nobleprog.com/apache-airflow-training)
-
-[Productionalizing Data Pipelines with Apache Airflow by Axel Sirota | Pluralsight](https://www.pluralsight.com/courses/productionalizing-data-pipelines-apache-airflow)
-
-[Accelerating End-to-End Data Science Workflows | Deep Learning Institute | NVIDIA](https://courses.nvidia.com/courses/course-v1:DLI+S-DS-01+V1/about)
-
-[Introducing Apache Arrow | Cloudera](https://blog.cloudera.com/introducing-apache-arrow-a-fast-interoperable-in-memory-columnar-data-structure-standard/)
-
-[Understanding Apache Arrow Flight | Dremio](https://www.dremio.com/understanding-apache-arrow-flight)
-
-[Apache Arrow in PySpark | Apache Spark](http://spark.apache.org/docs/latest/api/python/user_guide/arrow_pandas.html)
-
-[PySpark Usage Guide for Pandas with Apache Arrow | Apache Spark](https://spark.apache.org/docs/2.4.0/sql-pyspark-pandas-with-arrow.html)
-
-[Apache Arrow Training Courses | NobleProg](https://www.nobleprog.com/apache-arrow-training)
+[Apache Kafka Course | Pluralsight](https://www.pluralsight.com/courses/apache-kafka-getting-started)
 
 [Apache Spark Quick Start](https://spark.apache.org/docs/latest/quick-start.html)
 
@@ -128,103 +123,14 @@
 
 [Apache Spark Training Courses | NobleProg](https://www.nobleprog.com/apache-spark-training)
 
-# Apache Airflow Tools, Libraries, and Frameworks
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
-
-
-[Astronomer](https://www.astronomer.io/) is a fully managed Apache Airflow in [Astronomer Cloud](https://www.astronomer.io/docs/cloud/), or self-hosted within your environment.
-
-[Astronomer Registry](https://registry.astronomer.io/) is a discovery and distribution hub for Apache Airflow integrations created to aggregate and curate the best bits of the ecosystem.
-
-[Amazon Managed Workflows for Apache Airflow](https://aws.amazon.com/managed-workflows-for-apache-airflow) is a fully managed Apache Airflow on [Amazon Web Services (AWS)](https://aws.amazon.com/).
-
-[Airflow ECR Plugin](https://github.com/asandeep/airflow-ecr-plugin) is a plugin used to refresh AWS ECR login token at regular intervals. This is especially helpful where [DockerOperator](https://airflow.apache.org/docs/apache-airflow-providers-docker/stable/_api/airflow/providers/docker/operators/docker/index.html) needs to pull images hosted on ECR.
-
-[Google Cloud Composer](https://cloud.google.com/composer) is a managed Apache Airflow service on [Google Cloud Platform](https://console.cloud.google.com/getting-started).
-
-[Qubole](https://qubole.com/) is a fully managed Apache Airflow Service on all major public clouds.
-
-[Airflow Plugins](https://github.com/airflow-plugins/) is a central collection of repositories of various plugins for Airflow, including mailchimp, trello, sftp, GitHub, etc.
-
-[Afctl](https://github.com/qubole/afctl) is a CLI tool that includes everything required to create, manage and deploy airflow projects faster and smoother.
-
-[Airflow AWS executors](https://github.com/aelzeiny/airflow-aws-executors) is a tool that runs Airflow Tasks directly on AWS Batch, AWS Fargate, or AWS ECS.
-
-[Airflow code editor](https://github.com/andreax79/airflow-code-editor) is a tool for Apache Airflow that allows you to edit DAGs in browser.
-
-[Airflow diagrams](https://github.com/feluelle/airflow-diagrams) is a collection of auto-generated Diagrams from Airflow DAGs.
-
-[Airflow maintenance dags by Clairvoyant](https://github.com/teamclairvoyant/airflow-maintenance-dags) is a repo of Airflow DAGs that operator on Airflow itself, clearing out various bits of the backing metadata store.
-
-[Airflow K8s Debugger](https://github.com/Javier162380/AirflowKuberentesDebugger) is a library for generate k8s pod yaml templates from an Airflow dag using the KubernetesPodOperator.
-
-[Airflow Ditto](https://github.com/angadsingh/airflow-ditto) is an extensible framework to do transformations to an Airflow DAG and convert it into another DAG which is flow-isomorphic with the original DAG, to be able to run it on different environments (on different clouds, or even different container frameworks such as Apache Spark on YARN vs Kubernetes).
-
-[Amundsen](https://github.com/amundsen-io/amundsen) is a data discovery and metadata platform for improving the productivity of data analysts, data scientists and engineers when interacting with data. It can surface which Airflow task generates a given table.
-
-[Chartis](https://github.com/trejas/chartis) is a Python package to convert Common Workflow Language (CWL) into Airflow DAG.
-
-[Dag factory](https://github.com/ajbosco/dag-factory) is a library for dynamically generating Apache Airflow DAGs from YAML configuration files.
-
-[Dag Dependencies viewer](https://github.com/ms32035/airflow-dag-dependencies) is a tool which creates a view to visualize dependencies between the Airflow DAGs
-
-[Apache Liminal (Incubating)](https://incubator.apache.org/clutch/liminal.html) is an end-to-end platform for data engineers and scientists, allowing them to build, train and deploy machine learning models in a robust and agile way.
-
-[Databand](https://databand.ai/) is an Observability platform built on top of Airflow.
-
-[DataHub](https://datahubproject.io/) is a metadata platform for the modern data stack. It can automatically [collect lineage and other metadata](https://datahubproject.io/docs/metadata-ingestion#lineage-with-airflow) from Airflow.
-
-[Elyra](https://github.com/elyra-ai/elyra) is a tool that provides a visual editor that enables data scientists to create AI pipelines in a low-code/no-code fashion.
-
-[GeniumCloud](https://geniumcloud.com/) is a Platform for rapid build, scheduling and control Airflow workflows via completely new UI. Out of the box comprehensive Airflow infrastructure monitoring, integration with alerting systems and service adoption from small to enterprise organizations. The easiest way to manage complex workflows.
-
-[Gusty](https://github.com/chriscardillo/gusty) is a tool that creates a DAG using any number of YAML, Python, Jupyter Notebook, or R Markdown files that represent individual tasks in the DAG. gusty also configures dependencies, DAGs, and TaskGroups, features support for your local operators, and more. A fully containerized demo is [available here](https://github.com/chriscardillo/gusty-demo).
-
-[Meltano](https://www.meltano.com/) is an open source, self-hosted, CLI-first, debuggable, and extensible ELT tool that embraces [Singer](https://www.singer.io/) for extraction and loading, leverages [dbt](https://www.getdbt.com/) for transformation, and [integrates with Airflow for orchestration](https://meltano.com/#orchestration).
-
-[Oozie to Airflow](https://github.com/GoogleCloudPlatform/oozie-to-airflow) is a tool to easily convert between [Apache Oozie](https://oozie.apache.org/) workflows and Apache Airflow workflows.
-
-[Pylint Airflow](https://github.com/BasPH/pylint-airflow) is a Pylint plugin for static code analysis on Airflow code.
-
-[Simple DAG editor](https://github.com/ohadmata/simple-dag-editor) is a zero configuration Airflow tool that let you manage your DAG files.
-
-[Viewflow](https://github.com/datacamp/viewflow) is an Airflow-based framework that allows data scientists to create data models without writing Airflow code.
-
-[Whirl](https://github.com/godatadriven/whirl) is a fast iterative local development and testing of Apache Airflow workflows.
-
-[Apache Parquet](https://parquet.apache.org/) is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
-
-[DataFusion](https://arrow.apache.org/datafusion) is an extensible query execution framework, written in Rust, that uses [Apache Arrow](https://arrow.apache.org/) as its in-memory format. DataFusion supports both an SQL and a DataFrame API for building logical query plans as well as a query optimizer and execution engine capable of parallel execution against partitioned data sources (CSV and Parquet) using threads.
-
-[Fletcher](https://github.com/abs-tudelft/fletcher) is a framework that helps to integrate FPGA accelerators with tools and frameworks that use Apache Arrow in their back-ends.
-
-[Apache Flink™](https://flink.apache.org/) is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
-
-[Apache Cassandra™](https://cassandra.apache.org/) is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Cassandra provides linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
-
-[Apache Flume](https://flume.apache.org/) is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of streaming event data.
-
-[Apache Mesos](http://mesos.apache.org/) is a cluster manager that provides efficient resource isolation and sharing across distributed applications, or frameworks. It can run Hadoop, Jenkins, Spark, Aurora, and other frameworks on a dynamically shared pool of nodes.
-
-[Apache Kafka®](https://kafka.apache.org/) is a distributed data store optimized for ingesting and processing streaming data in real-time. Streaming data is data that is continuously generated by thousands of data sources, which typically send the data records in simultaneously.
-
-[Apache Spark™](https://spark.apache.org/) is a unified analytics engine for large-scale data processing. It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for stream processing.
-
-[Spark SQL](https://spark.apache.org/sql/) is a Spark module for structured data processing. Unlike the basic Spark RDD API, the interfaces provided by Spark SQL provide Spark with more information about the structure of both the data and the computation being performed. Internally, Spark SQL uses this extra information to perform extra optimizations.
-
-[Spark Streaming](https://spark.apache.org/streaming/) is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine. It can express your streaming computation the same way you would express a batch computation on static data from various sources including [Apache Kafka](https://kafka.apache.org/), [Apache Flume](https://flume.apache.org/), and [Amazon Kinesis](https://aws.amazon.com/kinesis/).
-
-[Apache HBase™](https://hbase.apache.org/) is an open-source, NoSQL, distributed big data store. It enables random, strictly consistent, real-time access to petabytes of data. HBase is very effective for handling large, sparse datasets. HBase serves as a direct input and output to the Apache MapReduce framework for Hadoop, and works with Apache Phoenix to enable SQL-like queries over HBase tables.
-
-[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
-
-[Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
-
-[Apache Arrow](https://arrow.apache.org/) is a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. Languages that have Arrow libraries (under development) include C, C++, Go, Java, JavaScript, Python, Ruby and Rust.
-
-[Apache Beam](https://beam.apache.org/) is an open source, unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs).
+# Apache Kafka Tools, Libraries, and Frameworks
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 [Confluent Platform](https://docs.confluent.io/platform/current/platform.html) is a full-scale data streaming platform that enables you to easily access, store, and manage data as continuous, real-time streams. Built by the original creators of Apache Kafka®, Confluent expands the benefits of Kafka with enterprise-grade features while removing the burden of Kafka management or monitoring.
+
+[AWS Glue](https://aws.amazon.com/glue/)AWS Glue is a fully managed ETL (extract, transform, and load) serverless data integration service that makes it simple and cost-effective to categorize your data, clean it, enrich it, and move it reliably between various data stores and data streams. AWS Glue consists of a central metadata repository known as the AWS Glue Data Catalog, an ETL engine that automatically generates Python or Scala code, and a flexible scheduler that handles dependency resolution, job monitoring, and retries.
+
+[Amazon EMR](https://aws.amazon.com/emr/) is a managed cluster platform that simplifies running big data frameworks, such as Apache Hadoop and Apache Spark, on AWS to process and analyze vast amounts of data. Using these frameworks and related open-source projects, you can process data for analytics purposes and business intelligence workloads.
 
 [Kafka Connec](https://docs.confluent.io/platform/current/connect/index.html) is an open source Apache Kafka framework for connecting Kafka with external systems such as databases, key-value stores, search indexes, and file systems.
 
@@ -262,6 +168,12 @@
 
 [Splunk](https://www.splunk.com/en_us/software.html) is a software platform that is used for searching, monitoring, and examining machine-generated Big Data through a web interface.
 
+[Apache Spark™](https://spark.apache.org/) is a unified analytics engine for large-scale data processing. It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for stream processing.
+
+[Spark SQL](https://spark.apache.org/sql/) is a Spark module for structured data processing. Unlike the basic Spark RDD API, the interfaces provided by Spark SQL provide Spark with more information about the structure of both the data and the computation being performed. Internally, Spark SQL uses this extra information to perform extra optimizations.
+
+[Spark Streaming](https://spark.apache.org/streaming/) is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine. It can express your streaming computation the same way you would express a batch computation on static data from various sources including [Apache Kafka](https://kafka.apache.org/), [Apache Flume](https://flume.apache.org/), and [Amazon Kinesis](https://aws.amazon.com/kinesis/).
+
 [MLib](https://spark.apache.org/mllib/) is Spark’s machine learning (ML) library. Its goal is to make practical machine learning scalable and easy. It consists of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as lower-level optimization primitives and higher-level pipeline APIs.
 
 [Graphx](https://spark.apache.org/graphx/) is the new Spark API for graphs and graph-parallel computation. At a high-level, GraphX extends the [Spark RDD](https://spark.apache.org/docs/latest/rdd-programming-guide.html) by introducing the Resilient Distributed Property Graph: a directed multigraph with properties attached to each vertex and edge.
@@ -281,9 +193,25 @@
   - The [Models component](https://mlflow.org/docs/latest/models.html) that provides a standard unit for packaging and reusing machine learning models.
   - The [Model Registry](https://mlflow.org/docs/latest/model-registry.html) component that lets you centrally manage models and their lifecycle.
 
+[Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
+
 [Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
 
 [BigDL](https://bigdl-project.github.io/) is a distributed deep learning library for Apache Spark. With BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters.
+
+[Apache Cassandra™](https://cassandra.apache.org/) is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Cassandra provides linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
+
+[Apache Flume](https://flume.apache.org/) is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of streaming event data.
+
+[Apache Mesos](http://mesos.apache.org/) is a cluster manager that provides efficient resource isolation and sharing across distributed applications, or frameworks. It can run Hadoop, Jenkins, Spark, Aurora, and other frameworks on a dynamically shared pool of nodes.
+
+[Apache HBase™](https://hbase.apache.org/) is an open-source, NoSQL, distributed big data store. It enables random, strictly consistent, real-time access to petabytes of data. HBase is very effective for handling large, sparse datasets. HBase serves as a direct input and output to the Apache MapReduce framework for Hadoop, and works with Apache Phoenix to enable SQL-like queries over HBase tables.
+
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+
+[Apache Beam](https://beam.apache.org/) is an open source, unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs).
+
+[Apache Arrow](https://arrow.apache.org/) is a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs.
 
 [Jupyter Notebook](https://jupyter.org/) is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter is used widely in industries that do data cleaning and transformation, numerical simulation, statistical modeling, data visualization, data science, and machine learning.
 
@@ -307,6 +235,8 @@
 
 [Apache OpenNLP](https://opennlp.apache.org/) is an open-source library for a machine learning based toolkit used in the processing of natural language text. It features an API for use cases like [Named Entity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition), [Sentence Detection](), [POS(Part-Of-Speech) tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging), [Tokenization](https://en.wikipedia.org/wiki/Tokenization_(data_security)) [Feature extraction](https://en.wikipedia.org/wiki/Feature_extraction), [Chunking](https://en.wikipedia.org/wiki/Chunking_(psychology)), [Parsing](https://en.wikipedia.org/wiki/Parsing), and [Coreference resolution](https://en.wikipedia.org/wiki/Coreference).
 
+[Apache Airflow](https://airflow.apache.org) is an open-source workflow management platform created by the community to programmatically author, schedule and monitor workflows. Install. Principles. Scalable. Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
+
 [Open Neural Network Exchange(ONNX)](https://github.com/onnx) is an open ecosystem that empowers AI developers to choose the right tools as their project evolves. ONNX provides an open source format for AI models, both deep learning and traditional ML. It defines an extensible computation graph model, as well as definitions of built-in operators and standard data types.
 
 [Apache MXNet](https://mxnet.apache.org/) is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scaling effectively to multiple GPUs and multiple machines. Support for Python, R, Julia, Scala, Go, Javascript and more.
@@ -328,7 +258,7 @@
 [Theano](https://github.com/Theano/Theano) is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently including tight integration with NumPy
 
 # Machine Learning
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/134075212-b132056a-5980-4610-a141-dd0677b17b5f.png">
@@ -438,7 +368,7 @@
 [cuML](https://github.com/rapidsai/cuml) is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 # Algorithms
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 [Fuzzy logic](https://www.investopedia.com/terms/f/fuzzy-logic.asp) is a heuristic approach that allows for more advanced decision-tree processing and better integration with rules-based programming.
 
@@ -522,7 +452,7 @@
 **Bayes' theorem. Source:[mathisfun](https://www.mathsisfun.com/data/bayes-theorem.html)**
 
 # Deep Learning Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/133943699-6dcfcb40-ddf7-4501-86e0-41e8aee91fe2.png">
@@ -714,7 +644,7 @@
 [Mapping Toolbox™](https://www.mathworks.com/products/mapping.html) is a tool that provides algorithms and functions for transforming geographic data and creating map displays. You can visualize your data in a geographic context, build map displays from more than 60 map projections, and transform data from a variety of sources into a consistent geographic coordinate system.
 
 # Reinforcement Learning Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/133943722-059d8f26-44d7-40c3-9850-4b3a88d46b01.png">
@@ -917,7 +847,7 @@
 
 
 # Computer Vision Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/129494417-b0ee8192-ac41-4a6d-8e1d-4761ffc8bab1.png">
@@ -999,7 +929,7 @@
 [Microsoft AirSim](https://microsoft.github.io/AirSim/lidar.html) is a simulator for drones, cars and more, built on Unreal Engine (with an experimental Unity release). AirSim is open-source, cross platform, and supports [software-in-the-loop simulation](https://www.mathworks.com/help///ecoder/software-in-the-loop-sil-simulation.html) with popular flight controllers such as PX4 & ArduPilot and [hardware-in-loop](https://www.ni.com/en-us/innovations/white-papers/17/what-is-hardware-in-the-loop-.html) with PX4 for physically and visually realistic simulations. It is developed as an Unreal plugin that can simply be dropped into any Unreal environment. AirSim is being developed  as a platform for AI research to experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles.
 
 # NLP Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/131386286-e23991d5-a1aa-4ee9-9582-874dc0854c1a.png">
@@ -1100,7 +1030,7 @@
 [Numba](https://github.com/numba/numba) is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
 # Bioinformatics
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/126912438-49cc660e-90c5-4cbc-828b-10e807b99767.png">
@@ -1170,7 +1100,7 @@
 [NCBI BioSystems](https://www.ncbi.nlm.nih.gov/biosystems/) is a  Database that provides integrated access to biological systems and their component genes, proteins, and small molecules, as well as literature describing those biosystems and other related data throughout Entrez.
 
 # Databases
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/119279004-daec0700-bbdd-11eb-9662-b1fc86ec8448.png">
@@ -1321,7 +1251,7 @@
 
 
 # CUDA Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/94306481-e17b8f00-ff27-11ea-832f-c85374acb3b1.png">
@@ -1399,7 +1329,7 @@
 [GraphVite](https://graphvite.io/) is a general graph embedding engine, dedicated to high-speed and large-scale embedding learning in various applications.
 
 # MATLAB Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/94306473-de809e80-ff27-11ea-924b-0a6947ae38bc.png">
@@ -1509,7 +1439,7 @@
 [GNU Octave](https://www.gnu.org/software/octave/) is a high-level interpreted language, primarily intended for numerical computations. It provides capabilities for the numerical solution of linear and nonlinear problems, and for performing other numerical experiments. It also provides extensive graphics capabilities for data visualization and manipulation.
 
 # Java Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93925952-c0b6fd80-fccb-11ea-9f90-21c4148e3c86.png">
@@ -1609,239 +1539,8 @@
 
 [YourKit](https://www.yourkit.com/) is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.
 
-# C/C++ Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
-  <br />
-</p>
-
-## C/C++ Learning Resources
-
-[C++](https://www.cplusplus.com/doc/tutorial/) is a cross-platform language that can be used to build high-performance applications developed by Bjarne Stroustrup, as an extension to the C language.
-
-[C](https://www.iso.org/standard/74528.html) is a general-purpose, high-level language that was originally developed by Dennis M. Ritchie to develop the UNIX operating system at Bell Labs. It supports structured programming, lexical variable scope, and recursion, with a static type system. C also provides constructs that map efficiently to typical machine instructions, which makes it one was of the most widely used programming languages today.
-
-[Embedded C](https://en.wikipedia.org/wiki/Embedded_C) is a set of language extensions for the C programming language by the [C Standards Committee](https://isocpp.org/std/the-committee) to address issues that exist between C extensions for different [embedded systems](https://en.wikipedia.org/wiki/Embedded_system). The extensions hep enhance microprocessor features such as fixed-point arithmetic, multiple distinct memory banks, and basic I/O operations. This makes Embedded C the most popular embedded software language in the world.
-
-[C & C++ Developer Tools from JetBrains](https://www.jetbrains.com/cpp/)
-
-[Open source C++ libraries on cppreference.com](https://en.cppreference.com/w/cpp/links/libs)
-
-[C++ Graphics libraries](https://cpp.libhunt.com/libs/graphics)
-
-[C++ Libraries in MATLAB](https://www.mathworks.com/help/matlab/call-cpp-library-functions.html)
-
-[C++ Tools and Libraries Articles](https://www.cplusplus.com/articles/tools/)
-
-[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-
-[Introduction C++ Education course on Google Developers](https://developers.google.com/edu/c++/)
-
-[C++ style guide for Fuchsia](https://fuchsia.dev/fuchsia-src/development/languages/c-cpp/cpp-style)
-
-[C and C++ Coding Style Guide by OpenTitan](https://docs.opentitan.org/doc/rm/c_cpp_coding_style/)
-
-[Chromium C++ Style Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
-
-[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
-
-[C++ Style Guide for ROS](http://wiki.ros.org/CppStyleGuide)
-
-[Learn C++](https://www.learncpp.com/)
-
-[Learn C : An Interactive C Tutorial](https://www.learn-c.org/)
-
-[C++ Institute](https://cppinstitute.org/free-c-and-c-courses)
-
-[C++ Online Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/c-plus-plus)
-
-[C++ Tutorials on W3Schools](https://www.w3schools.com/cpp/default.asp)
-
-[Learn C Programming Online Courses on edX](https://www.edx.org/learn/c-programming)
-
-[Learn C++ with Online Courses on edX](https://www.edx.org/learn/c-plus-plus)
-
-[Learn C++ on Codecademy](https://www.codecademy.com/learn/learn-c-plus-plus)
-
-[Coding for Everyone: C and C++ course on Coursera](https://www.coursera.org/specializations/coding-for-everyone)
-
-[C++ For C Programmers on Coursera](https://www.coursera.org/learn/c-plus-plus-a)
-
-[Top C Courses on Coursera](https://www.coursera.org/courses?query=c%20programming)
-
-[C++ Online Courses on Udemy](https://www.udemy.com/topic/c-plus-plus/)
-
-[Top C Courses on Udemy](https://www.udemy.com/topic/c-programming/)
-
-[Basics of Embedded C Programming for Beginners on Udemy](https://www.udemy.com/course/embedded-c-programming-for-embedded-systems/)
-
-[C++ For Programmers Course on Udacity](https://www.udacity.com/course/c-for-programmers--ud210)
-
-[C++ Fundamentals Course on Pluralsight](https://www.pluralsight.com/courses/learn-program-cplusplus)
-
-[Introduction to C++ on MIT Free Online Course Materials](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
-
-[Introduction to C++ for Programmers | Harvard ](https://online-learning.harvard.edu/course/introduction-c-programmers)
-
-[Online C Courses | Harvard University](https://online-learning.harvard.edu/subject/c)
-
-
-## C/C++ Tools, Libraries and Frameworks
-
-[AWS SDK for C++](https://aws.amazon.com/sdk-for-cpp/)
-
-[Azure SDK for C++](https://github.com/Azure/azure-sdk-for-cpp)
-
-[Azure SDK for C](https://github.com/Azure/azure-sdk-for-c)
-
-[C++ Client Libraries for Google Cloud Services](https://github.com/googleapis/google-cloud-cpp)
-
-[Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
-
-[Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
-
-[Vcpkg](https://github.com/microsoft/vcpkg) is a C++ Library Manager for Windows, Linux, and MacOS.
-
-[ReSharper C++](https://www.jetbrains.com/resharper-cpp/features/) is a Visual Studio Extension for C++ developers developed by JetBrains.
-
-[AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages. All code inspections are run on the fly.
-
-[CLion](https://www.jetbrains.com/clion/features/) is a cross-platform IDE for C and C++ developers developed by JetBrains.
-
-[Code::Blocks](https://www.codeblocks.org/) is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable. Built around a plugin framework, Code::Blocks can be extended with plugins.
-
-[CppSharp](https://github.com/mono/CppSharp) is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.
-
-[Conan](https://conan.io/) is an Open Source Package Manager for C++ development and dependency management into the 21st century and on par with the other development ecosystems.
-
-[High Performance Computing (HPC) SDK](https://developer.nvidia.com/hpc) is a comprehensive toolbox for GPU accelerating HPC modeling and simulation applications. It includes the C, C++, and Fortran compilers, libraries, and analysis tools necessary for developing HPC applications on the NVIDIA platform.
-
-[Thrust](https://github.com/NVIDIA/thrust) is a C++ parallel programming library which resembles the C++ Standard Library. Thrust's high-level interface greatly enhances programmer productivity while enabling performance portability between GPUs and multicore CPUs. Interoperability with established technologies such as CUDA, TBB, and OpenMP integrates with existing software.
-
-[Boost](https://www.boost.org/) is an educational opportunity focused on cutting-edge C++. Boost has been a participant in the annual Google Summer of Code since 2007, in which students develop their skills by working on Boost Library development.
-
-[Automake](https://www.gnu.org/software/automake/) is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of GNU Autoconf.
-
-[Cmake](https://cmake.org/) is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.
-
-[GDB](http://www.gnu.org/software/gdb/) is a debugger, that allows you to see what is going on `inside' another program while it executes or what another program was doing at the moment it crashed.
-
-[GCC](https://gcc.gnu.org/) is a compiler Collection that includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages.
-
-[GSL](https://www.gnu.org/software/gsl/) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.
-
-[OpenGL Extension Wrangler Library (GLEW)](https://www.opengl.org/sdk/libs/GLEW/) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform.
-
-[Libtool](https://www.gnu.org/software/libtool/) is a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface. To use Libtool, add the new generic library building commands to your Makefile, Makefile.in, or Makefile.am.
-
-[Maven](https://maven.apache.org/) is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
-
-[TAU (Tuning And Analysis Utilities)](http://www.cs.uoregon.edu/research/tau/home.php) is capable of gathering performance information through instrumentation of functions, methods, basic blocks, and statements as well as event-based sampling. All C++ language features are supported including templates and namespaces.
-
-[Clang](https://clang.llvm.org/) is a production quality C, Objective-C, C++ and Objective-C++ compiler when targeting X86-32, X86-64, and ARM (other targets may have caveats, but are usually easy to fix). Clang is used in production to build performance-critical software like Google Chrome or Firefox.
-
-[OpenCV](https://opencv.org/) is a highly optimized library with focus on real-time applications. Cross-Platform C++, Python and Java interfaces support Linux, MacOS, Windows, iOS, and Android.
-
-[Libcu++](https://nvidia.github.io/libcudacxx) is the NVIDIA C++ Standard Library for your entire system. It provides a heterogeneous implementation of the C++ Standard Library that can be used in and between CPU and GPU code.
-
-[ANTLR (ANother Tool for Language Recognition)](https://www.antlr.org/) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.
-
-[Oat++](https://oatpp.io/) is a light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.
-
-[JavaCPP](https://github.com/bytedeco/javacpp) is a program that provides efficient access to native C++ inside Java, not unlike the way some C/C++ compilers interact with assembly language.
-
-[Cython](https://cython.org/) is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.
-
-[Spdlog](https://github.com/gabime/spdlog) is a very fast, header-only/compiled, C++ logging library.
-
-[Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
-
-# C# Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/94306457-d6c0fa00-ff27-11ea-85dc-83dbb8f3e3e6.png">
-  <br />
-</p>
-
-## C# Learning Resources
-
-[C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is a modern and object-oriented programming language developed by Microsoft to write any application using the C# programming language on the .NET platform.
-
-[Taking your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/)
-
-[Learning C#](https://dotnet.microsoft.com/learn/csharp)
-
-[C# development with Visual Studio](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/)
-
-[C# programming with Visual Studio Code](https://code.visualstudio.com/Docs/languages/csharp)
-
-[Working with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
-
-[C# Tutorial by W3Schools](https://www.w3schools.com/cs/)
-
-[Windows Forms for .NET 5 and .NET Core 3.1](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0)
-
-[Xamarin documentation](https://docs.microsoft.com/en-us/xamarin/)
-
-[Advanced Topics in C# by Udemy](https://www.udemy.com/course/advanced-topics-csharp/)
-
-[The complete C# tutorial](https://csharp.net-tutorials.com/)
-
-[Unity C# Survival Guide](https://learn.unity.com/course/unity-c-survival-guide)
-
-[RabbitMQ .NET/C# Client API](https://www.rabbitmq.com/dotnet-api-guide.html)
-
-## C# Tools, Libraries and Frameworks
-
-[Mono](https://www.mono-project.com/) is a software platform designed to allow developers to easily create cross platform applications. It is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime.
-
-[Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
-
-[MSBuild](https://github.com/dotnet/msbuild) is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
-
-[Roslyn](https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/) is a .NET compiler developed by Microsoft that provides C# and Visual Basic languages with rich code analysis APIs.
-
-[Bot Framework](https://github.com/microsoft/botframework-sdk) is a framework developed by Microsoft that provides the most comprehensive experience for building conversation applications. Developers can model and build sophisticated conversation using their favorite programming languages including C#, JS, Python and Java or using Bot Framework Composer, an open-source, visual authoring canvas for developers and multi-disciplinary teams to design and build conversational experiences with Language.
-
-[Uno Platform](https://platform.uno/) is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, macOS, WebAssembly, Linux and Windows 7. It provides the full definitions of the UWP [Windows 10 2004 (19041)](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-19041), and the implementation of a growing number of parts of the UWP API, such as Windows.UI.Xaml, to enable UWP and WinUI applications to run on these platforms.
-
-[Rider](https://www.jetbrains.com/rider/) is a fast and powerful, cross-platform .NET IDE devloped by JetBrains to develop .NET, ASP.NET, .NET Core, Xamarin; or Unity applications for Windows, Mac, Linux.
-
-[Resharper](https://www.jetbrains.com/resharper/) is a [Visual Studio](https://visualstudio.microsoft.com/) Extension for .NET Developers that has On-the-fly code quality analysis for C#, VB.NET, XAML, ASP.NET, ASP.NET MVC, JavaScript, TypeScript, CSS, HTML, and XML. Letting you know right away if your code needs to be improved.
-
-[dotPeek](https://www.jetbrains.com/decompiler/) is a tool developed by JetBrains based on ReSharper's bundled decompiler. It can reliably decompile any .NET assembly into equivalent C# or CIL code.
-
-[dotTrace](https://www.jetbrains.com/profiler/) is an .NET performance Profiler developed by Jet Brains. It helps users locate performance bottlenecks in a variety of .NET applications: desktop applications, .NET Core, ASP.NET, ASP.NET Core applications hosted on IIS or IIS Express web servers, Silverlight, WCF services, Windows services, Universal Windows Platform applications, and unit tests.
-
-[dotMemory](https://www.jetbrains.com/dotmemory/) is an .NET memory Profiler developed by Jet Brains. It allows the user to analyze memory usage in a variety of .NET and .NET Core applications: desktop applications, Windows services, ASP.NET web applications, IIS, IIS Express, arbitrary .NET processes, and more.
-
-[dotCover](https://www.jetbrains.com/dotcover/) is an .NET unit test runner and code coverage tool developed by Jet Brains. It helps the user figure out on-the-fly which unit tests are affected by your latest code changes, and automatically re-runs the affected tests for you. The continuous testing mode can be switched on for any unit test session.
-
-[Json.NET](https://www.newtonsoft.com/json) is a popular high-performance JSON framework for .NET.
-
-[Quasar](https://github.com/quasar/Quasar) is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
-
-[CodeMaid](https://github.com/codecadwallader/codemaid) is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
-
-[.NET Fiddle](https://dotnetfiddle.net/) is an advanced online compiler for C# that allows you to create, run and share your code online.
-
-[Octopus Deploy](https://octopus.com/) is a single place for your team to manage releases, automate deployments, and automate the runbooks that keeps your software operating.
-
-[Appveyor](https://ci.appveyor.com/) is a cloud-based continuous integration system that integrates natively with your source control and allows CI configuration files to live alongside your projects.
-
-[AppHarbor](https://appharbor.com/) is a .NET Platform-as-a-Service that let's developers deploy and scale any standard .NET application to the cloud.
-
-[ANTLR (ANother Tool for Language Recognition)](https://www.antlr.org/) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.
-
-[AutoRest](https://github.com/Azure/autorest) is a tool generates client libraries for accessing RESTful web services using the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) format. It Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby.
-
-[Markdig](https://github.com/lunet-io/markdig) is a fast, powerful, [CommonMark](https://commonmark.org/) compliant, extensible Markdown processor for .NET.
-
 # Python Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93133273-ce490380-f68b-11ea-81d0-7f6a3debe6c0.png">
@@ -1961,9 +1660,167 @@
 
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.
 
+# C# Development
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/94306457-d6c0fa00-ff27-11ea-85dc-83dbb8f3e3e6.png">
+  <br />
+</p>
+
+## C# Learning Resources
+
+[C#](https://docs.microsoft.com/en-us/dotnet/csharp/) is a modern and object-oriented programming language developed by Microsoft to write any application using the C# programming language on the .NET platform.
+
+[Taking your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/)
+
+[Learning C#](https://dotnet.microsoft.com/learn/csharp)
+
+[C# development with Visual Studio](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/)
+
+[C# programming with Visual Studio Code](https://code.visualstudio.com/Docs/languages/csharp)
+
+[Working with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
+
+[C# Tutorial by W3Schools](https://www.w3schools.com/cs/)
+
+[Windows Forms for .NET 5 and .NET Core 3.1](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0)
+
+[Xamarin documentation](https://docs.microsoft.com/en-us/xamarin/)
+
+[Advanced Topics in C# by Udemy](https://www.udemy.com/course/advanced-topics-csharp/)
+
+[The complete C# tutorial](https://csharp.net-tutorials.com/)
+
+[Unity C# Survival Guide](https://learn.unity.com/course/unity-c-survival-guide)
+
+[RabbitMQ .NET/C# Client API](https://www.rabbitmq.com/dotnet-api-guide.html)
+
+## C# Tools, Libraries and Frameworks
+
+[Mono](https://www.mono-project.com/) is a software platform designed to allow developers to easily create cross platform applications. It is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime.
+
+[Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
+
+[MSBuild](https://github.com/dotnet/msbuild) is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+
+[Roslyn](https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/) is a .NET compiler developed by Microsoft that provides C# and Visual Basic languages with rich code analysis APIs.
+
+[Bot Framework](https://github.com/microsoft/botframework-sdk) is a framework developed by Microsoft that provides the most comprehensive experience for building conversation applications. Developers can model and build sophisticated conversation using their favorite programming languages including C#, JS, Python and Java or using Bot Framework Composer, an open-source, visual authoring canvas for developers and multi-disciplinary teams to design and build conversational experiences with Language.
+
+[Uno Platform](https://platform.uno/) is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, macOS, WebAssembly, Linux and Windows 7. It provides the full definitions of the UWP [Windows 10 2004 (19041)](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-19041), and the implementation of a growing number of parts of the UWP API, such as Windows.UI.Xaml, to enable UWP and WinUI applications to run on these platforms.
+
+[Rider](https://www.jetbrains.com/rider/) is a fast and powerful, cross-platform .NET IDE devloped by JetBrains to develop .NET, ASP.NET, .NET Core, Xamarin; or Unity applications for Windows, Mac, Linux.
+
+[Resharper](https://www.jetbrains.com/resharper/) is a [Visual Studio](https://visualstudio.microsoft.com/) Extension for .NET Developers that has On-the-fly code quality analysis for C#, VB.NET, XAML, ASP.NET, ASP.NET MVC, JavaScript, TypeScript, CSS, HTML, and XML. Letting you know right away if your code needs to be improved.
+
+[dotPeek](https://www.jetbrains.com/decompiler/) is a tool developed by JetBrains based on ReSharper's bundled decompiler. It can reliably decompile any .NET assembly into equivalent C# or CIL code.
+
+[dotTrace](https://www.jetbrains.com/profiler/) is an .NET performance Profiler developed by Jet Brains. It helps users locate performance bottlenecks in a variety of .NET applications: desktop applications, .NET Core, ASP.NET, ASP.NET Core applications hosted on IIS or IIS Express web servers, Silverlight, WCF services, Windows services, Universal Windows Platform applications, and unit tests.
+
+[dotMemory](https://www.jetbrains.com/dotmemory/) is an .NET memory Profiler developed by Jet Brains. It allows the user to analyze memory usage in a variety of .NET and .NET Core applications: desktop applications, Windows services, ASP.NET web applications, IIS, IIS Express, arbitrary .NET processes, and more.
+
+[dotCover](https://www.jetbrains.com/dotcover/) is an .NET unit test runner and code coverage tool developed by Jet Brains. It helps the user figure out on-the-fly which unit tests are affected by your latest code changes, and automatically re-runs the affected tests for you. The continuous testing mode can be switched on for any unit test session.
+
+[Json.NET](https://www.newtonsoft.com/json) is a popular high-performance JSON framework for .NET.
+
+[Quasar](https://github.com/quasar/Quasar) is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
+
+[CodeMaid](https://github.com/codecadwallader/codemaid) is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
+
+[.NET Fiddle](https://dotnetfiddle.net/) is an advanced online compiler for C# that allows you to create, run and share your code online.
+
+[Octopus Deploy](https://octopus.com/) is a single place for your team to manage releases, automate deployments, and automate the runbooks that keeps your software operating.
+
+[Appveyor](https://ci.appveyor.com/) is a cloud-based continuous integration system that integrates natively with your source control and allows CI configuration files to live alongside your projects.
+
+[AppHarbor](https://appharbor.com/) is a .NET Platform-as-a-Service that let's developers deploy and scale any standard .NET application to the cloud.
+
+[ANTLR (ANother Tool for Language Recognition)](https://www.antlr.org/) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.
+
+[AutoRest](https://github.com/Azure/autorest) is a tool generates client libraries for accessing RESTful web services using the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) format. It Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby.
+
+[Markdig](https://github.com/lunet-io/markdig) is a fast, powerful, [CommonMark](https://commonmark.org/) compliant, extensible Markdown processor for .NET.
+
+# Go Development
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/93719679-068f8c80-fb39-11ea-8baa-9e779ee58a0a.png">
+  <br />
+</p>
+
+## Go Learning Resources
+
+[Go](https://golang.org/) is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+[Golang Contribution Guide](https://golang.org/doc/contribute.html)
+
+[Google Developers Training](https://developers.google.com/training/)
+
+[Google Developers Certification](https://developers.google.com/certification/)
+
+[Uber's Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
+
+[GitLab's Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/)
+
+[Effective Go](https://golang.org/doc/effective_go.html)
+
+[Go: The Complete Developer's Guide (Golang) on Udemy](https://www.udemy.com/course/go-the-complete-developers-guide/)
+
+[Getting Started with Go on Coursera](https://www.coursera.org/learn/golang-getting-started)
+
+[Programming with Google Go on Coursera](https://www.coursera.org/specializations/google-golang)
+
+[Learning Go Fundamentals on Pluralsight](https://www.pluralsight.com/courses/go-fundamentals)
+
+[Learning Go on Codecademy](https://www.codecademy.com/learn/learn-go)
+
+## Go Tools and Frameworks
+
+[golang tools](https://pkg.go.dev/golang.org/x/tools) holds the source for various packages and tools that support the Go programming language.
+
+[Go in Visual Studio Code](https://code.visualstudio.com/docs/languages/go) is an extension that gives you language features like IntelliSense, code navigation, symbol search, bracket matching, snippets, and many more that will help you in Golang development.
+
+[Traefik](https://github.com/traefik/traefik) is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.
+
+[Gitea](https://github.com/go-gitea/gitea) is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.
+
+[OpenFaaS](https://github.com/openfaas/faas) is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
+
+[micro](https://github.com/zyedidia/micro) is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.
+
+[Gravitational Teleport](https://github.com/gravitational/teleport) is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.
+
+[NATS](https://nats.io/) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation (CNCF). NATS has over 30 client language implementations, and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
+
+[Act](https://github.com/nektos/act) is a GO program that allows you to run our GitHub Actions locally.
+
+[Fiber](https://gofiber.io/) is an [Express](https://github.com/expressjs/express) inspired web framework built on top of [Fasthttp](https://github.com/valyala/fasthttp), the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
+
+[Glide](https://github.com/Masterminds/glide) is a vendor Package Management for Golang.
+
+[BadgerDB](https://github.com/dgraph-io/badger) is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for [Dgraph](https://dgraph.io/), a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.
+
+[Go kit](https://github.com/go-kit/kit) is a programming toolkit for building microservices (or elegant monoliths) in Go. We solve common problems in distributed systems and application architecture so you can focus on delivering business value.
+
+[Codis](https://github.com/CodisLabs/codis) is a proxy based high performance Redis cluster solution written in Go.
+
+[zap](https://github.com/uber-go/zap) is a blazing fast, structured, leveled logging in Go.
+
+[HttpRouter](https://github.com/julienschmidt/httprouter) is a lightweight high performance HTTP request router (also called multiplexer or just mux for short) for Go.
+
+[Gorilla WebSocket](https://github.com/gorilla/websocket) is a Go implementation of the WebSocket protocol.
+
+[Delve](https://github.com/go-delve/delve) is a debugger for the Go programming language.
+
+[GORM](https://github.com/go-gorm/gorm) is a fantastic ORM library for Golang, aims to be developer friendly.
+
+[Go Patterns](https://github.com/tmrts/go-patterns) is a curated collection of idiomatic design & application patterns for Go language.
+
 
 # Scala Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95688293-09bcec00-0bbe-11eb-8d0d-d75706856673.png">
@@ -2039,7 +1896,7 @@
 
 
 # R Development
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/126080648-b515b7c0-e1bd-481b-92d2-c9cdd98ac30c.png">
@@ -2121,12 +1978,13 @@
 
 ## Contribute
 
-- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Apache-Airflow-Guide/pulls).
+- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Apache-Kafka-Guide/pulls).
 
 
 ## License
 
-[Back to the Top](https://github.com/mikeroyal/Apache-Airflow-Guide#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/Apache-Kafka-Guide#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
+
 
