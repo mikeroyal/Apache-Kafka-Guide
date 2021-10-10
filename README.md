@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/136711777-563b2265-9adb-431a-8c33-e964aa855d1d.png">
   <br />
   Apache Kafka Guide
 </h1>
@@ -8,17 +8,17 @@
 
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/136711788-a94768c9-bd2f-4093-8930-9d1584c58ec7.png">
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/136711802-df80f972-a56d-4418-8007-91a08c07956c.png">
 
 Connecting Apache Kafka with Splunk. Source: [Splunk](https://www.splunk.com/blog/2018/04/25/splunk-connect-for-kafka-connecting-apache-kafka-with-splunk.html)
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/136711806-365e2c07-77e1-48de-8531-660298e51f05.png">
 
 Instaclustr Kafka Managed Platform. Source: [Instaclustr](https://www.instaclustr.com)
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/136711807-952b53bb-e32e-4bfe-9c3c-d9135ccaa8b7.png">
 
 Confluent Platform with Apache Kafka®. Source [Confluent](https://www.confluent.io/)
 
